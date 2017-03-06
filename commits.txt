@@ -1,0 +1,5 @@
+commit e42ae42fcffb3679e72675ee58ce233cf36cabea
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Feb 24 11:55:28 2017 -0500
+
+    version maquetación en bruto

@@ -1,0 +1,96 @@
+@import 'foundation';
+body {
+  background-color: #fff;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: 'Lato', sans-serif;
+}
+.test {
+  border: solid 1px #f00;
+}
+.txtPeque {
+  font-size: 0.7rem;
+}
+.vertical {
+  display: flex;
+  align-items: flex-end;
+}
+.row {
+  border: solid 1px #00f;
+}
+.column {
+  border: solid 1px #00f;
+}
+#barraNav {
+  background-color: rgba(104,102,174,0.3);
+}
+.fi-social-facebook,
+.fi-social-twitter,
+.fi-social-instagram {
+  color: #fff;
+}
+#menu-container li a:hover {
+  color: #c54e9d;
+  font-family: 'Lato', sans-serif;
+}
+#slide {
+  background-image: url("Slide01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 330px;
+  padding: 0;
+}
+#leyenda h2,
+h4 {
+  color: #6866ae;
+  text-align: right;
+  font-weight: bold;
+}
+#leyenda h4 {
+  color: #c54e9d;
+}
+.orbit li p {
+  font-size: 0.8rem;
+  color: #c54e9d;
+}
+.orbit-bullets button {
+  background-color: rgba(104,102,174,0.65);
+}
+.orbit-bullets button.is-active {
+  background-color: #c54e9d;
+}
+#pEsteril {
+  background-image: url("cuadro01.jpg");
+  background-size: cover;
+  height: 230px;
+}
+#pEsteril p,
+#eInfertilidad h3 {
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+#pEsteril h3,
+#tFertilidad h3 {
+  color: #c54e9d;
+  margin-bottom: 0.2rem;
+}
+#eInfertilidad {
+  background-image: url("cuadro02.jpg");
+  background-size: cover;
+  height: 230px;
+}
+#eInfertilidad p,
+#tFertilidad p {
+  color: #6866ae;
+  margin-bottom: 0.2rem;
+}
+#tFertilidad {
+  background-image: url("cuadro03.jpg");
+  background-size: cover;
+  height: 230px;
+}

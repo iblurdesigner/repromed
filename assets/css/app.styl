@@ -1,0 +1,99 @@
+test(color=red)
+  border solid 1px color
+
+$primario= #6866AE
+
+$secundario= #C54E9D
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body
+  background-color white
+  font-size 16px
+
+// FORMATOS *********
+h1,h2,h3,h4,p
+  font-family 'Lato', sans-serif
+.test
+  test(red)
+
+.cuerpo
+  background-color: red
+  box-shadow 10px 10px 5px #888888
+
+.txtPeque
+  font-size 0.7rem
+
+.vertical
+  display: flex;
+  align-items: flex-end;
+
+.row
+    border solid 1px blue
+
+.column
+    border solid 1px blue
+
+// FORMATOS-END *********
+
+#barraNav
+    background-color rgba(104, 102, 174, 0.3)
+
+.fi-social-facebook, .fi-social-twitter, .fi-social-instagram
+    color white
+
+#menu-container li a:hover
+  color #C54E9D
+  font-family 'Lato', sans-serif
+
+// IMAGEN FRONT
+#slide
+    background-image url("../img/Slide01.jpg")
+    background-size cover
+    background-repeat no-repeat
+    height 330px
+    padding 0
+
+#leyenda h2,h4
+  color $primario
+  text-align right
+  font-weight bold
+#leyenda h4
+  color $secundario
+
+// SLIDE
+.orbit li p
+  font-size: .8rem
+  color $secundario
+.orbit-bullets button
+  background-color: rgba(104,102,174,0.65)
+.orbit-bullets button.is-active
+  background-color: #C54E9D
+
+// QUE HACEMOS
+#pEsteril
+    background-image url("../img/cuadro01.jpg")
+    background-size cover
+    height 230px
+
+#pEsteril p, #eInfertilidad h3
+  color: white
+  margin-bottom: .2rem
+
+#pEsteril h3, #tFertilidad h3
+  color: $secundario
+  margin-bottom: .2rem
+
+#eInfertilidad
+    background-image url("../img/cuadro02.jpg")
+    background-size cover
+    height 230px
+
+#eInfertilidad p, #tFertilidad p
+  color: $primario
+  margin-bottom: .2rem
+
+#tFertilidad
+    background-image url("../img/cuadro03.jpg")
+    background-size cover
+    height 230px
