@@ -1,3 +1,9 @@
+commit 739dc1e2e8fe0f535636d9fdb24ac7a1bc7bced1
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 6 10:20:10 2017 -0500
+
+    automatizando tareas con node npm  gulp browserify y otras librerias
+
 commit e42ae42fcffb3679e72675ee58ce233cf36cabea
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Fri Feb 24 11:55:28 2017 -0500

@@ -1,5 +1,13 @@
-var numeros = [400, 12, 1, -23];
+var page = require('page');
 
-var numerosMas1 = numeros.map(n => n + 1 )
+var main = document.getElementById('slide');
 
-console.log(numerosMas1);
+page('/', function (ctx, next) {
+  main.innerHTML = 'otro slide <a href="/tratamientos">TRATAMIENTOS</a>';
+})
+
+page('/tratamientos', function (ctx, next) {
+  main.innerHTML = 'tratamientos <a href="/">HOME</a>';
+})
+
+page();
