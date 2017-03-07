@@ -4,9 +4,11 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,700i,900");
 body {
   background-color: #fff;
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: 'Lato', sans-serif; }
 
 h1,
 h2,
@@ -48,6 +50,18 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   height: 330px;
+  padding: 0; }
+
+#slide2 {
+  background-image: url("tratamiento.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 330px;
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+
+.boxSlide {
   padding: 0; }
 
 #leyenda h2,
@@ -98,3 +112,6 @@ h4 {
   background-image: url("cuadro03.jpg");
   background-size: cover;
   height: 230px; }
+
+#dr {
+  padding: 0; }

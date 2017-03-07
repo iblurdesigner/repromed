@@ -1,3 +1,9 @@
+commit 023fd90fe9863852e7a905e19d3db2b931e6236b
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Mar 6 15:58:08 2017 -0500
+
+    watchify instalado
+
 commit 739dc1e2e8fe0f535636d9fdb24ac7a1bc7bced1
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Mar 6 10:20:10 2017 -0500
