@@ -1,17 +1,21 @@
 @import 'foundation';
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,700i,900');
+$primary-color: #6866ae;
+$secondary-color: #c54e9d;
 body {
   background-color: #fff;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
+  h1,h2,h3,h4, input[type="submit"] {
+    font-family: 'Lato', sans-serif;
+  }
 }
-h1,
-h2,
-h3,
-h4,
-p {
-  font-family: 'Lato', sans-serif;
+
+p{
+  font-size: .9rem;
+  color: gray;
 }
+
 .test {
   border: solid 1px #f00;
 }
@@ -111,7 +115,62 @@ h4 {
   background-size: cover;
   height: 230px;
 }
+
+// equipoMedico
+.textos {
+  font-size: .9rem;
+}
+
 #dr {
   padding: 0;
+}
+.infoDoc {
+  h2 {
+    font-size: x-large;
+  }
+  h3 {
+    color: $secondary-color;
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+  h2,h4 {
+    color: $primary-color;
+    font-weight: 900;
+    line-height: 2.2rem;
+    text-align: left;
+  }
+  h4 {
+    font-size: medium;
+  }
+}
+#estudios {
+  color: $secondary-color;
+}
+// formulario
+.input-group-label {
+  height: 40px;
+}
+.input-group {
+  height: 30px;
+}
+// footer
 
+.footer {
+  .row {
+    background-color: $primary-color;
+  }
+  a, p {
+    font-size: x-small;
+    color: white;
+  }
+  h5 {
+    font-weight: 900;
+    color: white;
+  }
+}
+.map {
+  iframe {
+    height: 186px;
+    width: 217.5px !important;
+  }
 }

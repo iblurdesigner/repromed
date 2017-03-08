@@ -9,13 +9,12 @@ body {
   background-color: #fff;
   font-size: 16px;
   font-family: 'Lato', sans-serif; }
+  body h1, body h2, body h3, body h4, body input[type="submit"] {
+    font-family: 'Lato', sans-serif; }
 
-h1,
-h2,
-h3,
-h4,
 p {
-  font-family: 'Lato', sans-serif; }
+  font-size: .9rem;
+  color: gray; }
 
 .test {
   border: solid 1px #f00; }
@@ -113,5 +112,49 @@ h4 {
   background-size: cover;
   height: 230px; }
 
+.textos {
+  font-size: .9rem; }
+
 #dr {
   padding: 0; }
+
+.infoDoc h2 {
+  font-size: x-large; }
+
+.infoDoc h3 {
+  color: #c54e9d;
+  font-weight: 900;
+  font-size: 1.2rem; }
+
+.infoDoc h2, .infoDoc h4 {
+  color: #6866ae;
+  font-weight: 900;
+  line-height: 2.2rem;
+  text-align: left; }
+
+.infoDoc h4 {
+  font-size: medium; }
+
+#estudios {
+  color: #c54e9d; }
+
+.input-group-label {
+  height: 40px; }
+
+.input-group {
+  height: 30px; }
+
+.footer .row {
+  background-color: #6866ae; }
+
+.footer a, .footer p {
+  font-size: x-small;
+  color: white; }
+
+.footer h5 {
+  font-weight: 900;
+  color: white; }
+
+.map iframe {
+  height: 186px;
+  width: 217.5px !important; }

@@ -1,3 +1,9 @@
+commit 428fda97b3b11c6e76cab7cd55a056d4124f7f42
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 7 10:54:40 2017 -0500
+
+    automatizacion con yo-yo para navegacion a TRATAMIENTOS
+
 commit 023fd90fe9863852e7a905e19d3db2b931e6236b
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Mar 6 15:58:08 2017 -0500
