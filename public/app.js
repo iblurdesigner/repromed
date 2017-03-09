@@ -2539,24 +2539,29 @@ module.exports = [
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<section id="slide2" class="row align-right"></section>'], ['<section id="slide2" class="row align-right"></section>']),
-    _templateObject2 = _taggedTemplateLiteral([''], ['']);
+    _templateObject2 = _taggedTemplateLiteral(['<section id="tratamientos-content" class="tratamientos">\n                      <div class="row">\n                        <div class="column small-12 boxTrata">\n                          <h1>Tratamientos de Fertilidad</h1>\n                          <p>Hablamos de pareja inf\xE9rtil cuando despu\xE9s de un a\xF1o de relaciones sexuales sin protecci\xF3n no se consigue el embarazo. Lo anterior se desprende de datos demogr\xE1ficos que comprueban  que el 80% de las parejas logran el embarazo al a\xF1o de relaciones y el 90 % lo consigue a los dos a\xF1os. </br>M\xE1s parejas que nunca tienen problemas para tener un hijo hoy en d\xEDa. Se estima que un 10 a 15% de las parejas en edad f\xE9rtil tendr\xE1n alguna dificultad a la hora de concebir.</p>\n                        </div>\n                        <div class="column small-12 boxTrata">\n                          <h2>Inseminaci\xF3n Artificial</h2>\n                          <p>Consiste en colocar un n\xFAmero importante de espermatozoides capacitados previamente en laboratorio dentro del \xFAtero de la paciente que ha sido sometida a un ciclo d estimulaci\xF3n ov\xE1rica.</p>\n                        </div>\n                    </section>'], ['<section id="tratamientos-content" class="tratamientos">\n                      <div class="row">\n                        <div class="column small-12 boxTrata">\n                          <h1>Tratamientos de Fertilidad</h1>\n                          <p>Hablamos de pareja inf\xE9rtil cuando despu\xE9s de un a\xF1o de relaciones sexuales sin protecci\xF3n no se consigue el embarazo. Lo anterior se desprende de datos demogr\xE1ficos que comprueban  que el 80% de las parejas logran el embarazo al a\xF1o de relaciones y el 90 % lo consigue a los dos a\xF1os. </br>M\xE1s parejas que nunca tienen problemas para tener un hijo hoy en d\xEDa. Se estima que un 10 a 15% de las parejas en edad f\xE9rtil tendr\xE1n alguna dificultad a la hora de concebir.</p>\n                        </div>\n                        <div class="column small-12 boxTrata">\n                          <h2>Inseminaci\xF3n Artificial</h2>\n                          <p>Consiste en colocar un n\xFAmero importante de espermatozoides capacitados previamente en laboratorio dentro del \xFAtero de la paciente que ha sido sometida a un ciclo d estimulaci\xF3n ov\xE1rica.</p>\n                        </div>\n                    </section>']);
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var page = require('page');
 var yo = require('yo-yo');
 var empty = require('empty-element');
 
 var slide = document.getElementById('slide');
-var datos = document.getElementById('datosSlide');
+// var datos = document.getElementById('datosSlide');
+var equipo = document.getElementById('equipoMedico');
 
 page('/', function (ctx, next) {});
 
 page('/tratamientos', function (ctx, next) {
   var slide2 = yo(_templateObject);
-  var datosB = yo(_templateObject2);
+  // var datosB = yo``;
+  var equipoB = yo(_templateObject2);
   empty(slide).appendChild(slide2);
-  empty(datos).appendChild(datosB);
+  // empty(datos).appendChild(datosB);
+  empty(equipo).appendChild(equipoB);
 });
 
 page();

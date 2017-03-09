@@ -124,15 +124,16 @@ html.no-js(lang='en', dir='ltr')
       //- EQUIPO MEDICO
     section#equipoMedico.equipoMedico
       .row
-        .column.small-6.medium-4#dr
-          img(src="drHurtado.jpg")
-        .column.small-6.medium-4#infoDoc.infoDoc
-          h3 Dr.
-          h2 Carlos Alberto Hurtado Montero
-          h4 Infertilidad
-          p.textos El poder brindar una atención oportuna e individualizada a aquellas parejas que se encuentran en busca de embarazar es el principal objetivo. Para esto es primordial mantener un dialogo claro para escoger la mejor opción de tratamiento para cada caso. La paciente siempre contara con el acompañamiento adecuado para el seguimiento de su terapia de reproducción asistida.
-          h4#estudios Estudios
-          p.textos Médico Cirujano – Pontificia Universidad Católica del Ecuador Especialista en Ginecología y Obstetricia – Pontificia Universidad Católica del Ecuador Master en Reproducción Humana Asistida – Universidad Rey Juan Carlos, Instituto Valenciano de Infertilidad – IVI. España
+        .medium-8.infoDoc#infoDoc-content
+          .column.small-6#dr
+            img(src="drHurtado.jpg")
+          .column.small-6
+            h3 Dr.
+            h2 Carlos Alberto Hurtado Montero
+            h4 Infertilidad
+            p.textos El poder brindar una atención oportuna e individualizada a aquellas parejas que se encuentran en busca de embarazar es el principal objetivo. Para esto es primordial mantener un dialogo claro para escoger la mejor opción de tratamiento para cada caso. La paciente siempre contara con el acompañamiento adecuado para el seguimiento de su terapia de reproducción asistida.
+            h4#estudios Estudios
+            p.textos Médico Cirujano – Pontificia Universidad Católica del Ecuador Especialista en Ginecología y Obstetricia – Pontificia Universidad Católica del Ecuador Master en Reproducción Humana Asistida – Universidad Rey Juan Carlos, Instituto Valenciano de Infertilidad – IVI. España
         .column.small-12.medium-4#agenda
           h4 Agende su cita
           p.textos Te animas a emprender el viaje de tu vida, reserve su cita médica. Estaremos gustosos de atenderlo
@@ -161,7 +162,7 @@ html.no-js(lang='en', dir='ltr')
                   i.fi-mail
                 input(type='email', name='email' placeholder='tu@correo.com')
             .row.columns.small-12
-              textarea(name='Mensaje' placeholder='Mensaje', required)
+              textarea.mensaje(name='Mensaje' placeholder='Mensaje', required)
               .input-group-button
                 input.button(type='submit', value='Enviar')
           //- FOOTER
@@ -192,6 +193,21 @@ html.no-js(lang='en', dir='ltr')
           h5 Oficinas
           p Vicente Cárdenas E4-133 y Av. Amazonas. Edificio Ofimedic 7mo piso. Consultorio 7A. 0992 783 149 c.hurtado@repromed.com.ec
           .map(data-interchange="[map.html, medium]")
+        //- Tratamientos
+    //- section#tratamientos-content.tratamientos
+    //-   .row
+    //-     .column.small-12.boxTrata
+    //-       h1 Tratamientos de Fertilidad
+    //-       p Hablamos de pareja infértil cuando después de un año de relaciones sexuales sin protección no se consigue el embarazo. Lo anterior se desprende de datos demográficos que comprueban  que el 80% de las parejas logran el embarazo al año de relaciones y el 90 % lo consigue a los dos años. </br>Más parejas que nunca tienen problemas para tener un hijo hoy en día. Se estima que un 10 a 15% de las parejas en edad fértil tendrán alguna dificultad a la hora de concebir.
+    //-     .column.small-12.boxTrata
+    //-       h2 Inseminación Artificial
+    //-       p Consiste en colocar un número importante de espermatozoides capacitados previamente en laboratorio dentro del útero de la paciente que ha sido sometida a un ciclo d estimulación ovárica.
+    //-     .column.small-12.boxTrata
+    //-       h2 Fecundación In Vitro FIV
+    //-       p En este proceso y dentro del laboratorio se coloca el ovocito de la paciente junto a espermatozoides para facilitar a fecundación. Una vez fecundado el embrión se transfiere a la paciente.</br>Inyección Intracitoplasmática de espermatozoide. ICSI. Es la inyección directa de un espermatozoide dentro del ovocito.</br>Vitrificación de Óvulos. Una alternativa para preservar la fecundidad es la vitrificación de ovocitos, mismos que la paciente podrá utilizar en un futuro.
+    //-     .column.small-12.boxTrata
+    //-       h2 Congelación de Embriones
+    //-       p La preservación de embriones para ser transferidos en un futuro es una práctica segura que facilita la gestación.
     script(src='../js/vendor/jquery.js')
     script(src='../js/vendor/what-input.js')
     script(src='../js/vendor/foundation.js')

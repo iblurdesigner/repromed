@@ -1,3 +1,9 @@
+commit 65bd7066ed3cda74502ca94e335a051a32c01c2b
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Wed Mar 8 13:18:51 2017 -0500
+
+    estilos y diseño completos en el home
+
 commit 428fda97b3b11c6e76cab7cd55a056d4124f7f42
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Tue Mar 7 10:54:40 2017 -0500

@@ -117,6 +117,12 @@ h4 {
 }
 
 // equipoMedico
+.equipoMedico, .footer{
+  margin-top: 1rem;
+  .row{
+    padding-top: .8rem;
+  }
+}
 .textos {
   font-size: .9rem;
 }
@@ -125,6 +131,7 @@ h4 {
   padding: 0;
 }
 .infoDoc {
+  display: flex;
   h2 {
     font-size: x-large;
   }
@@ -153,6 +160,9 @@ h4 {
 .input-group {
   height: 30px;
 }
+.mensaje {
+  height: 115px;
+}
 // footer
 
 .footer {
@@ -172,5 +182,27 @@ h4 {
   iframe {
     height: 186px;
     width: 217.5px !important;
+  }
+}
+
+// page Tratamientos
+
+.boxTrata {
+  background-color: #f5f5f5;
+  border-radius: .5rem;
+  box-shadow: 5px 5px 10px #cfcfcf;
+  margin-top: 1rem;
+  padding-top: .8rem;
+}
+.tratamientos {
+  h1 {
+    color: $secondary-color;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  h2 {
+    color: $primary-color;
+    font-size: large;
+    font-weight: 900;
   }
 }
