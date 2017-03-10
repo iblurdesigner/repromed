@@ -1,3 +1,9 @@
+commit 562843b3d5f9194e889f1d8dddfebbbefa2a53d4
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Thu Mar 9 12:16:42 2017 -0500
+
+    Desde este momento vamos a empezar a modularizar nuestro proyecto (dividir)
+
 commit 65bd7066ed3cda74502ca94e335a051a32c01c2b
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Wed Mar 8 13:18:51 2017 -0500

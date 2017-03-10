@@ -173,12 +173,13 @@ h4 {
   margin-top: 1rem;
   padding-top: .8rem; }
 
-.tratamientos h1 {
-  color: #c54e9d;
-  font-size: x-large;
-  font-weight: 900; }
-
-.tratamientos h2 {
-  color: #6866ae;
-  font-size: large;
-  font-weight: 900; }
+.tratamientos {
+  margin-top: -18px; }
+  .tratamientos h1 {
+    color: #c54e9d;
+    font-size: x-large;
+    font-weight: 900; }
+  .tratamientos h2 {
+    color: #6866ae;
+    font-size: large;
+    font-weight: 900; }
