@@ -1,9 +1,10 @@
 var yo = require('yo-yo');
 
+var landing = require('../landing');
 
-module.exports = yo`<div class="container tratamientos">
+var box = yo`<div class="container tratamientos">
         <div class="column small-12 boxTrata">
-          <h1>Tratamientos de Fertilidad  la la land</h1>
+          <h1>Tratamientos de Fertilidad</h1>
           <p>Hablamos de pareja infértil cuando después de un año de relaciones sexuales sin protección no se consigue el embarazo. Lo anterior se desprende de datos demográficos que comprueban  que el 80% de las parejas logran el embarazo al año de relaciones y el 90 % lo consigue a los dos años. Más parejas que nunca tienen problemas para tener un hijo hoy en día. Se estima que un 10 a 15% de las parejas en edad fértil tendrán alguna dificultad a la hora de concebir.</p>
         </div>
         <div class="column small-12 boxTrata">
@@ -18,4 +19,5 @@ module.exports = yo`<div class="container tratamientos">
           <h2>Congelación de Embriones</h2>
           <p>La preservación de embriones para ser transferidos en un futuro es una práctica segura que facilita la gestación.</p>
         </div>
-  </div>`
+  </div>`;
+module.exports = landing(box);

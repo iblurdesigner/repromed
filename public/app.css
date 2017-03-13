@@ -142,6 +142,9 @@ h4 {
 #estudios {
   color: #c54e9d; }
 
+.dir {
+  display: flex; }
+
 .input-group-label {
   height: 40px; }
 

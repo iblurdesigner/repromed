@@ -1,3 +1,9 @@
+commit 3c462c6b8be0da02ac430eced062c530908bed27
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Fri Mar 10 14:32:03 2017 -0500
+
+    navegacion con yo-yo implementada entre home y tratamientos
+
 commit 562843b3d5f9194e889f1d8dddfebbbefa2a53d4
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Thu Mar 9 12:16:42 2017 -0500
