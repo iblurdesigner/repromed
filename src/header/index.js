@@ -6,8 +6,8 @@ var el = yo`<div>
     <div class="column small-12 shrink"><a href="#"><i class="fi-social-facebook"></i></a></div>
     <div class="column small-12 shrink"><a href="#"><i class="fi-social-twitter"></i></a></div>
     <div class="column small-12 shrink"><a href="#"><i class="fi-social-instagram"></i></a></div>
-    <div class="column small-5"><a href="https://www.google.com.ec/maps/place/0%C2%B010'11.9%22S+78%C2%B029'02.9%22W/@-0.169969,-78.4846932,19z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-0.169969!4d-78.484146?hl=es"><i class="fi-home">&nbsp; Vicente Cárdenas E4-133 y Av. Amazonas. Edificio Ofimedic 7mo piso. Consultorio 7A</i></a></div>
-    <div class="column medium-2"><a href="tel:025111166"><i class="fi-telephone">'&nbsp;' 025 111 166 '&nbsp;'</i></a><a href="tel:0992783149"><i class="fi-telephone">&nbsp; 0992 783 149</i></a></div>
+    <div class="column small-5"><a href="https://www.google.com.ec/maps/place/0%C2%B010'11.9%22S+78%C2%B029'02.9%22W/@-0.169969,-78.4846932,19z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-0.169969!4d-78.484146?hl=es"><i class="fi-home"> Vicente Cárdenas E4-133 y Av. Amazonas. Edificio Ofimedic 7mo piso. Consultorio 7A</i></a></div>
+    <div class="column medium-2"><a href="tel:025111166"><i class="fi-telephone"> 025 111 166 </i></a><a href="tel:0992783149"><i class="fi-telephone"> 0992 783 149</i></a></div>
     <div class="column medium-2"><a href="mailto:c.hurtado@repromed.com.ec"><i class="fi-mail">  c.hurtado@repromed.com.ec</i></a></div>
   </div>
   </section>

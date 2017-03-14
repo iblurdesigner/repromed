@@ -4,16 +4,16 @@ var template = require('./template');
 var title = require('title');
 var yo = require('yo-yo');
 
-page('/pareja', function (ctx, next) {
-  title('Repromed - Pareja Estéril');
-  var pareja = document.getElementById('infoDoc-content');
+page('/infertilidad', function (ctx, next) {
+  title('Repromed - Infertilidad');
+  var infer = document.getElementById('infoDoc-content');
   var slide = document.getElementById('slide-container');
   var datos = document.getElementById('datosSlide');
   empty(datos);
-  empty(slide).appendChild(slideP);
-  empty(pareja).appendChild(template);
+  empty(slide).appendChild(slideI);
+  empty(infer).appendChild(template);
 })
 
-var slideP = yo`<section id="slideP" class="row align-right">
+var slideI = yo`<section id="slideI" class="row align-right">
       <div class="column small-12 boxSlide"></div>
     </section>`;

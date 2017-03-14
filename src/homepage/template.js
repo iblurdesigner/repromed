@@ -1,7 +1,7 @@
 var yo = require('yo-yo');
 var layout = require('../layout');
 
-var box = yo`<div>
+var home = yo`<div>
       <row class="dir">
         <div id="dr" class="column small-6"><img src="drHurtado.jpg"/></div>
         <div class="column small-6">
@@ -14,4 +14,4 @@ var box = yo`<div>
         </div>
       </row>
     </div>`;
-module.exports = layout(box);
+module.exports = layout(home);

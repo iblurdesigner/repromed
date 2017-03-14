@@ -1,3 +1,9 @@
+commit 5b90af09010a858fea53c6e2273f5d9a9c2f9d06
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Mar 14 10:55:28 2017 -0500
+
+    divide y vencerás
+
 commit ace2adb0ca92023c9e4bf36921332052869c4891
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Mon Mar 13 09:05:45 2017 -0500

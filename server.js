@@ -18,6 +18,18 @@ app.get('/ques', function(req, res) {
   res.render('index', { title: 'Repromed - Qué es Repromed' });
 })
 
+app.get('/pareja', function(req, res) {
+  res.render('index');
+})
+
+app.get('/infertilidad', function(req, res) {
+  res.render('index');
+})
+
+app.get('/fertilidad', function(req, res) {
+  res.render('index');
+})
+
 app.listen(3000, function(err) {
   if(err) return console.log('Hubo un error'), process.exit(1);
   console.log('Repromed escuchando desde el puerto 3000');
