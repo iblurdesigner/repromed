@@ -1,6 +1,5 @@
 var yo = require('yo-yo');
-
-var landing = require('../landing');
+var layout = require('../layout');
 
 var box = yo`<div>
       <row class="dir">
@@ -15,4 +14,4 @@ var box = yo`<div>
         </div>
       </row>
     </div>`;
-module.exports = landing(box);
+module.exports = layout(box);
